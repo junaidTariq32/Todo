@@ -1,0 +1,55 @@
+name: to_do
+description: A ToDo app built with Flutter
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #firebase
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_ui_firestore:
+  firebase_ui_auth:
+
+  #ui
+  shimmer:
+  auto_size_text:
+  animations:
+  iconsax:
+  styled_widget:
+  google_fonts:
+  cached_network_image:
+  flutter_svg:
+  auto_size_text_pk:
+  #utils
+  shared_preferences:
+  logger:
+  date_picker_timeline:
+  uuid:
+  intl:
+  #notification
+  awesome_notifications:
+
+  #statemanagement
+  get:
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
